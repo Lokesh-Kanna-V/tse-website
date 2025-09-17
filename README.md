@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Wholesale Website – The SOX Enterprises
 
-## Getting Started
+This repository contains the source code for **The SOX Enterprises wholesale website**, a platform for bulk ordering of **baby products, men’s & women’s clothing, gift sets, and home décor**.
 
-First, run the development server:
+The project is built with **Next.js**, **Tailwind CSS**, and **Flowbite React** for a modern, responsive, and scalable web experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🖼️ **Product Catalog** – Browse baby products, clothing, gift sets, and home décor.
+- 🔍 **Advanced Filtering** – Search and filter by category, size, and price.
+- 🛒 **Wholesale Cart** – Add bulk quantities with MOQ support.
+- 👤 **Customer Portal** – Retailer account management & order history.
+- 📦 **Order Management** – Track and manage wholesale orders.
+- 🌍 **Responsive Design** – Mobile-first with Tailwind & Flowbite components.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/) – React framework with SSR/SSG
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
+- [Flowbite React](https://flowbite-react.com/) – Prebuilt components & carousel
+- [Lucide Icons](https://lucide.dev/) – Modern icon set
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📜 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This source code is proprietary and confidential.
+All rights reserved © 2025 The SOX Enterprises.
+You may not copy, modify, distribute, or use this code without explicit written permission from the owner.
