@@ -1,7 +1,7 @@
 import React from "react";
 
 //? Modules Import
-import HeroMainContent from "../modules/hero-MainContent";
+import HeroMainContent from "../modules/hero-mainContent";
 import HeroButtonSection from "../modules/hero-buttonSection";
 import HeroSupportContent from "../modules/hero-supportContent";
 import HeroImageCarousel from "../modules/hero-imageCarousel";

@@ -1,4 +1,4 @@
-export default function MainContent() {
+export default function HeroMainContent() {
   return (
     <div className="w-full h-full">
       <h1 className="text-5xl font-bold">
