@@ -5,14 +5,16 @@ import FeaturedProductCategories from "@/features/featuredProductCategories/ui/f
 import CallToAction from "@/features/callToAction/ui/callToAction";
 import Footer from "@/shared/ui/footer";
 
-export default function App() {
+export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col gap-20">
-      <Navbar />
-      <Hero />
-      <WhyChooseUs />
-      <FeaturedProductCategories />
-      <CallToAction />
+    <div>
+      <div className="w-full h-full flex flex-col gap-20">
+        <Navbar />
+        <Hero />
+        <WhyChooseUs />
+        <FeaturedProductCategories />
+        <CallToAction />
+      </div>
       <Footer />
     </div>
   );
