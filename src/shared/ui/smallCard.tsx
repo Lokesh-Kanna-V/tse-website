@@ -1,11 +1,11 @@
-import { CardProps } from "../types/CardProps";
+import { SmallCardProps } from "../types/SmallCardProps";
 
-export default function Card({
+export default function SmallCard({
   children,
   href = "#",
   title,
   content,
-}: CardProps) {
+}: SmallCardProps) {
   return (
     <a
       href="#"
@@ -13,12 +13,10 @@ export default function Card({
     >
       {children}
       <div className="text-center">
-        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">
+        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-800">
           {title}
         </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-          {content}
-        </p>
+        <p className="font-normal text-gray-500">{content}</p>
       </div>
     </a>
   );

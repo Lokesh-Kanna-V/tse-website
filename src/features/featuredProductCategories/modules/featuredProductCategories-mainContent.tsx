@@ -1,12 +1,12 @@
-export default function WhyChooseUsMainContent() {
+export default function FeaturedProductCategoriesMainContent() {
   return (
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-4xl text-gray-800 font-bold mb-5">
-        Why Choose The SOX Enterprises?
+        Featured Product Categories
       </h1>
       <p className="text-xl text-gray-500 text-center w-3/4">
-        We combine quality craftsmanship with international export expertise to
-        deliver the best baby garments to retailers worldwide.
+        Discover our comprehensive range of baby garments and accessories
+        designed for comfort, safety, and style.
       </p>
     </div>
   );

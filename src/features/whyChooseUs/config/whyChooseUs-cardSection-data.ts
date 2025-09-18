@@ -9,17 +9,18 @@ const reasons = [
   {
     icon: Shield,
     title: "Premium Quality",
-    content: "Soft, comfortable, and safe materials for delicate baby skin",
+    content:
+      "All products meet international safety standards and certifications",
   },
   {
     icon: Globe,
     title: "Premium Quality",
-    content: "Soft, comfortable, and safe materials for delicate baby skin",
+    content: "Serving 50+ countries with reliable shipping and logistics",
   },
   {
     icon: Star,
     title: "Premium Quality",
-    content: "Soft, comfortable, and safe materials for delicate baby skin",
+    content: "Established relationships with retailers worldwide since 2015",
   },
 ];
 

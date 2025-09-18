@@ -1,5 +1,5 @@
 //? Module Imports
-import Card from "@/shared/ui/card";
+import SmallCard from "@/shared/ui/smallCard";
 
 //? Config Imports
 import reasons from "../config/whyChooseUs-cardSection-data";
@@ -10,15 +10,15 @@ export default function WhyChooseUsCardSection() {
       {reasons.map((reason, index) => {
         const Icon = reason.icon;
         return (
-          <Card
+          <SmallCard
             key={`${reason.title}-${index}`}
             title={reason.title}
             content={reason.content}
           >
             <div className="flex justify-center">
-              <Icon className="w-6 h-6 mb-6" />
+              <Icon className="w-6 h-6 mb-6 text-gray-800" />
             </div>
-          </Card>
+          </SmallCard>
         );
       })}
     </div>
