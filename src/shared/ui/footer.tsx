@@ -11,8 +11,9 @@ export default function Footer() {
         <FooterQuickLinks />
         <FooterContactDetails />
       </div>
+
       <hr className="mx-30 mb-5"></hr>
-      <div className="flex justify-center items-start">
+      <div className="text-gray-600 flex justify-center items-start">
         <FooterCopyRight />
       </div>
     </div>
