@@ -5,7 +5,7 @@ import FooterCopyRight from "../modules/footer-copyRight";
 
 export default function Footer() {
   return (
-    <div className="mb-20">
+    <div className="mb-5">
       <div className="grid grid-cols-3 gap-10 mx-30 justify-items-center mb-5">
         <FooterCompanyDetails />
         <FooterQuickLinks />
