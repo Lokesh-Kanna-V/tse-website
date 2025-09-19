@@ -1,6 +1,6 @@
 import { SmallCardProps } from "../types/SmallCardProps";
 
-export default function SmallCard({
+export default function SmallCardContactUs({
   children,
   href = "#",
   title,
@@ -9,7 +9,7 @@ export default function SmallCard({
   return (
     <a
       href="#"
-      className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 flex flex-col justify-between"
+      className="max-w-sm h-52 w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 flex flex-col justify-between"
     >
       {children}
       <div className="text-center flex-1 flex flex-col justify-center">
