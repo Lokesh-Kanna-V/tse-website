@@ -2,19 +2,19 @@ import { Eye, Award, Users, Star } from "lucide-react";
 
 const numbers = [
   {
-    number: "2+",
+    number: "2",
     content: "Countries Served",
   },
   {
-    number: "9",
+    number: "2",
     content: "Years of Excellence",
   },
   {
-    number: "1000+",
-    content: "Garments Exported",
+    number: "100+",
+    content: "Items Exported",
   },
   {
-    number: "500+",
+    number: "5",
     content: "Happy Retailers",
   },
 ];
