@@ -3,6 +3,7 @@ import ContactUsMainContent from "../modules/contactUs-mainContent";
 import ContactUsCardSection from "../modules/contactUs-cardSection";
 import ContactUsLocation from "../modules/cotactUs-Location";
 import ContactUsOfficeHours from "../modules/contactUs-OfficeHours";
+import ContactUsFaQ from "../modules/contactUs-faq";
 
 export default function ContactUs() {
   return (
@@ -13,6 +14,7 @@ export default function ContactUs() {
         <ContactUsLocation />
         <ContactUsOfficeHours />
       </div>
+      <ContactUsFaQ />
     </div>
   );
 }
